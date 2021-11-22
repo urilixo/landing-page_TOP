@@ -1,13 +1,118 @@
 body{
     display: flex;
     flex-direction: column;
+    margin:0px;
+}
+button{
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 5px;    
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
 .header{
+    display: flex;
+    justify-content: space-between;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 1vh 20vw;
+}
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;    
+}
+#menu a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 .double-panel{
-    background-color: #1F2937;
-    color: #f9faf8;
     display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    align-content: center;
+    color: #f9faf8;
+    padding: 10vh 20vw;
+}
+#main-text{
+    flex-basis: 50%;
+}
+#main-text h1{
+    font-size: 48px;
+    color:  #F9FAF8;
+    font-weight: 900;
+}
+#main-text h2{
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+}
+#placeholder{
+    display: flex;
+    flex-basis: 50%;
+    background-color: #6d747d;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+.featured{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 20vw;
+    text-align: center;    
+}
+.featured-products{
+    display:flex;
+    justify-content: space-between;
+}
+#featured-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 5vh;
+    color: #1f2937;
+}
+.product-image{
+    padding: 10vh;
+    margin: 16px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882F6;
+}
+.testimonials{
+    padding: 5vh 20vw;
+    background-color: #e5e7eb;
+}
+.testimonials h1{
+    font-size: 36px;
+    font-weight:100
+    ;
+    font-style: italic;
+}
+.testimonials h2{
+    font-weight: bold;
+    text-align: right;
+}
+.call-to-action{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 150px;
+    padding: 5vh 20vw;
+    border-radius: 15px;
+}
+.call-to-action button{
+    border-style: solid;
+    border-color: white;
+}
+.footer{
+    background-color:  #1f2937;
+    text-align: center;
+    padding: 4vh 20vw;
+    color: white;
 }
