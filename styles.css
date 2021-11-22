@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+.double-panel{
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+}
